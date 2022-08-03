@@ -40,9 +40,6 @@
             this.divideButton = new System.Windows.Forms.Button();
             this.mainDisplayLabel = new System.Windows.Forms.Label();
             this.clearButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.listCountLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // numButton7
@@ -215,7 +212,7 @@
             this.mainDisplayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainDisplayLabel.Location = new System.Drawing.Point(37, 64);
             this.mainDisplayLabel.Name = "mainDisplayLabel";
-            this.mainDisplayLabel.Size = new System.Drawing.Size(641, 83);
+            this.mainDisplayLabel.Size = new System.Drawing.Size(342, 83);
             this.mainDisplayLabel.TabIndex = 1;
             this.mainDisplayLabel.Text = "0";
             this.mainDisplayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -231,44 +228,11 @@
             this.clearButton.UseVisualStyleBackColor = true;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Garamond", 13F);
-            this.button1.Location = new System.Drawing.Point(385, 358);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 34);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "print";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.printClicked);
-            // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(46, -1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(641, 83);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "0";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // listCountLabel
-            // 
-            this.listCountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listCountLabel.Location = new System.Drawing.Point(37, 8);
-            this.listCountLabel.Name = "listCountLabel";
-            this.listCountLabel.Size = new System.Drawing.Size(641, 65);
-            this.listCountLabel.TabIndex = 1;
-            this.listCountLabel.Text = "0";
-            this.listCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(690, 456);
-            this.Controls.Add(this.listCountLabel);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(415, 456);
             this.Controls.Add(this.mainDisplayLabel);
             this.Controls.Add(this.numButton3);
             this.Controls.Add(this.numButton6);
@@ -276,7 +240,6 @@
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.divideButton);
             this.Controls.Add(this.multiplyButton);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.equalsButton);
             this.Controls.Add(this.minusButton);
             this.Controls.Add(this.numButton9);
@@ -313,9 +276,6 @@
         private System.Windows.Forms.Button divideButton;
         private System.Windows.Forms.Label mainDisplayLabel;
         private System.Windows.Forms.Button clearButton;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label listCountLabel;
     }
 }
 
