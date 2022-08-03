@@ -50,7 +50,11 @@ namespace Calculator {
 
             } else { mainDisplayLabel.Text += numKeyPressed;}
 
-            fullNum += numKeyPressed;
+            if (mainDisplayLabel.Text != "0") {
+                fullNum = numKeyPressed;
+            } else {
+                fullNum += numKeyPressed;
+            }
         }
 
         private void operatorButton_Click(object sender, EventArgs e) {     //Operator Pressed
